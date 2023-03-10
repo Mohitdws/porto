@@ -1,0 +1,494 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #877d7d;
+    font-weight: 600;
+    margin:0px;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #877d7d;
+}
+ul li a{
+	color:#fff;
+}
+.my-account-nav.desktop ul li a {
+    color: #877d7d;
+}
+i.fa.fa-user,i.fa.fa-heart,i.fa.fa-shopping-bag {
+    color: #232833;
+}
+section.topbar {
+    width: 100%;
+    border-bottom: 1px solid #dddcdc;
+}
+section.logo-section {
+    width: 100%;
+}
+.topbar-section, .navbar-section {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.right-section {
+    float: right;
+    width: 65%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.left-section {
+    float: left;
+    width: 35%;
+    display: inline-flex;
+}
+.my-account-nav ul {
+    display: inline-flex;
+    padding: 0px;
+    border-left: 1px solid #dddcdc;
+    border-right: 1px solid #dddcdc;
+}
+select option {
+    background: #282d3b;
+}
+
+.my-account-nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.social-icons ul {
+    display: inline-flex;
+}
+.social-icons ul li {
+    list-style: none;
+    padding: 0px 10px;
+   
+}
+.social-icons ul li img {
+    
+    height: 15px;
+    width: 15px;
+}
+.language-selector {
+    margin-right: 15px;
+}
+.language-selector select,.currency-selector select {
+    border: none !important;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+    color: #4a4a4a;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #877d7d;
+    font-weight: 900;
+}
+ .row {
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .col-2 {
+    max-width: 16.33%;
+    flex: 0 0 16.33%;
+}
+.col-5 {
+    max-width: 40.33%;
+    flex: 0 0 40.33%;
+}
+.col-3 {
+    max-width: 24.33%;
+    flex: 0 0 24.33%;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+input.search-section {
+    border: none;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    background-color: #f6f7f9;
+    width: 65%;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 20px;
+    height: 38.5px;
+    color: #877d7d;
+        outline: none;
+}
+select.searchoption {
+    border: none;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    background-color: #f6f7f9;
+    width: 25%;
+    border-radius: 0px;
+    padding-left: 5px;
+    height: 40px;
+    margin: 0px 2px;
+    color: #877d7d;
+        outline: none;
+}
+button.searchbutton {
+    width: 10%;
+    border: none;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    background-color: #f6f7f9;
+    border-radius: 0px 50px 50px 0px;
+    height: 38.5px;
+    color: #877d7d;
+}
+button.searchbutton img {
+    max-width: 30%;
+}
+.phone-details img {
+    max-width: 30px;
+}
+.contact-info {
+    float: right;
+}
+.phone-details {
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.block{
+	display: block
+}
+span.block {
+    font-size: 11px;
+    font-weight: bolder;
+}
+.phone-details a {
+    color: #232833;
+    font-size: 19px;
+    font-weight: 800;
+}
+.phone-call {
+    padding-left: 10px;
+}
+.icon-shopping ul {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.icon-shopping li {
+    list-style: none;
+    font-size: 30px;
+    color: #232833;
+    padding: 0px 20px;
+    position: relative;
+}
+section.menu-header {
+    background-color: #282d3b;
+}
+navbar {
+    background-color: #282d3b;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+}
+
+
+navbar ul li {
+    list-style: none;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 13px;
+        display: flex;
+
+}
+li.menu:hover ul.sub-menu{
+	display: block;
+}
+li.menu {
+    position: relative;
+}
+ul.sub-menu li:hover{
+	background-color:#232833;
+}
+ul.sub-menu {
+    position: absolute;
+    width: 300px;
+    top: 58px;
+    left: 0px;
+    display: none;
+    z-index: 99999999;
+    background-color: #f64655;
+    padding: 0px;
+}
+li.menu:after {
+    content: ">";
+    height: 10px;
+    width: 10px;
+    position: static;
+    margin-left: 5px;
+    font-weight: 400;
+        margin-top: 3px;
+}
+li.menu:after {
+    height: 10px;
+    width: 10px;
+    position: static;
+    margin-left: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+}
+navbar ul li:hover {
+    background-color: #2f3946;
+}
+i.fa.fa-heart::after, i.fa.fa-shopping-bag::after {
+    content: "0";
+    background-color: red;
+    color: #fff;
+    border-radius: 50px;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+}
+ul li:nth-child(8) {
+    float: right;
+    margin-left: 10%;
+}
+div#menu-icon {
+    display: none;
+}
+@media only screen and (min-width:980px){
+	.menu-icon {
+    display: none;
+}
+.my-account-nav.mobile {
+    display: none;
+}
+.my-account-nav.desktop {
+    display: block;
+}
+}
+
+
+@media only screen and (min-width:980px) and (max-width:1200px){
+.right-section {
+    
+    width: 80%;
+  
+}
+.left-section {
+   
+    width: 20%;
+    
+}
+navbar ul li {
+    list-style: none;
+    color: #fff;
+    padding: 20px 13px;
+    font-size: 13px;
+    display: flex;
+}
+.col-3 {
+    max-width: 20.33%;
+    flex: 0 0 20.33%;
+}
+.col-2 {
+    max-width: 21.33%;
+    flex: 0 0 20.33%;
+}
+.col-5 {
+    max-width: 37.33%;
+    flex: 0 0 35.33%;
+}
+input.search-section {
+    
+    width: 40%;
+   
+}
+select.searchoption {
+    
+    width: 40%;
+   
+}
+button.searchbutton {
+    width: 20%;
+    
+}
+.icon-shopping li {
+    
+    font-size: 22px;
+    
+}
+}
+
+@media only screen and (min-width:190px) and (max-width:980px){
+div#menu-icon {
+    display: block;
+}
+button.searchbutton {
+    width: 15%;
+   
+}	
+select.searchoption {
+   
+    width: 35%;
+   
+}
+input.search-section {
+   
+    width: 50%;
+ 
+}
+.language-selector {
+    margin-right: 5px;
+}
+.social-icons ul {
+    display: inline-flex;
+    padding-left: 0px;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 15px auto;
+}
+.col-5 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.my-account-nav.desktop {
+    display: none;
+}
+.my-account-nav.mobile select {
+    border: none !important;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+    color: #4a4a4a;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #877d7d;
+    font-weight: 900;
+}
+.my-account-nav.mobile {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.returns-heading {
+    display: none;
+}
+
+#menu-icon i.fa.fa-bars {
+    font-size: 30px;
+    padding: 20px;
+    color: #fff;
+}
+
+.icon-shopping li {
+    list-style: none;
+    font-size: 25px;
+    color: #232833;
+    padding: 0px 12px;
+    position: relative;
+}
+.phone-details a {
+    color: #232833;
+    font-size: 16px;
+    font-weight: 800;
+}
+navbar ul {
+    position: absolute;
+    width: 100%;
+    top: 69px;
+    left: 0px;
+    display: none;
+    z-index: 99999999;
+    background-color: #f64655;
+    padding: 0px;
+}
+.show {
+    display: block;
+}
+.col-2.w30 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.w35 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo img {
+    max-width: 140px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.contact-info {
+    float: left;
+}
+.right-section {
+   
+    width: 60%;
+    
+}
+.social-icons ul li img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.social-icons ul li {
+    list-style: none;
+    padding: 0px 0px;
+}
+ul li:nth-child(8) {
+    float: none;
+    margin-left: 0px;
+}
+ul.sub-menu {
+    position: absolute;
+    width: 100%;
+    top: 58px;
+    left: 0px;
+    display: none;
+    z-index: 99999999;
+    background-color: #2f3946;
+    padding: 0px;
+}
+}
